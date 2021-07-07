@@ -26,3 +26,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vayu_global-user 11 RKQ1.200826.002 V12.5.3.0.RJUMIXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:11/RKQ1.200826.002/V12.5.3.0.RJUMIXM:user/release-keys
+
+# Fluid flags
+FLUID_BUILD_TYPE := OFFICIAL
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.fluid.maintainer=Foxtrot47 \
+	ro.fluid.cpu=SDM860
+
+# GApps
+ifeq ($(WITH_GMS),true)
+TARGET_INCLUDE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+endif 
