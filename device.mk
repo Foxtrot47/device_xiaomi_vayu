@@ -393,6 +393,9 @@ include $(LOCAL_PATH)/properties/default.mk
 # QTI
 TARGET_BOARD_PLATFORM := msmnile
 
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
