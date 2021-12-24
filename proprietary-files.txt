@@ -52,8 +52,6 @@ vendor/lib/rfsa/adsp/tas25xx_TI_0.bin
 # AptX - from coral-user-11-RQ1A.210205.004-7038034-release-keys
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Audio firmware
 vendor/firmware/tas256x_reg.bin
@@ -519,12 +517,6 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
 
 # FM
-system_ext/lib/fm_helium.so
-system_ext/lib/libfm-hci.so
-system_ext/lib/vendor.qti.hardware.fm@1.0.so
-system_ext/lib64/fm_helium.so
-system_ext/lib64/libfm-hci.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init.qti.fm.sh
 vendor/bin/fm_qsoc_patches
