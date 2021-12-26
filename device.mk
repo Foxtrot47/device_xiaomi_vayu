@@ -291,15 +291,11 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   CarrierConfigOverlayVayu \
-   DialerOverlayVayu \
    FrameworksResOverlayVayu \
    NotchBarKillerVayu \
    SettingsOverlayVayu \
    SettingsProviderOverlayVayu \
    SystemUIOverlayVayu \
-   TelephonyOverlayVayu \
-   TetheringConfigOverlayVayu \
    WifiOverlayVayu
 
 # Power
@@ -323,6 +319,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     gps \
     display \
+    overlay \
     perf \
     telephony \
     usb
